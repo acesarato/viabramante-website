@@ -1,0 +1,174 @@
+html {
+    height: 100%;
+}
+
+body {
+    background-color: #293a32;
+    margin: 0;
+    font-family: 'Ysabeau', sans-serif;
+ 
+}
+h1 {
+    font-family: 'Ysabeau SC', sans-serif;
+    font-size: 110px;
+    font-weight: lighter;
+    color: #fff;
+    margin-bottom: 0%;
+}
+h2, h3, h4, h5 {
+    font-family: 'Ysabeau SC', sans-serif;
+    color: #fff;
+}
+q {
+    display: block;
+    font-size: 20px;
+    font-family: 'Ysabeau SC', sans-serif;
+    color: #dba0a0;
+    font-weight: lighter;
+    text-align: center;
+    padding-left: 120px;
+    padding-right: 120px;
+
+}
+p {
+    font-size: 20px;
+    font-family: 'Ysabeau SC', sans-serif;
+    color: #ffffff;
+    font-weight: lighter;
+    text-align: center;
+    padding-left: 120px;
+    padding-right: 120px;
+}
+ .row {
+    background-color: #293a32;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+ }
+
+nav {
+    background-color: #293a32;
+    font-family: 'Ysabeau SC', sans-serif;
+    position: fixed;
+    z-index: 1;
+    left: 0;
+    right: 0;
+}
+
+.navigation {
+    text-align: center;
+    font-size:20px;
+    color:#293a32;
+}
+.navigation li {
+    font-family: 'Ysabeau SC', sans-serif;
+    display: inline-block;
+    margin:0 15px;
+    color: #ffff;
+    text-align: center;
+}
+
+.border{
+    color: #fff solid 1 px;
+}
+
+.gallery {
+    margin: 10px 10px;
+}
+
+.gallery img {
+    width: 230px;
+    height: 230x;
+    padding: 10px;
+    filter: grayscale(30%);
+    transition: 1s;
+    border-radius: 10%;
+ 
+}
+
+.gallery img:hover {
+    filter: grayscale(0);
+    transform: scale(1.1);
+   
+}
+
+.Portfolio h2 {
+    color: #fff;
+    font-size: 50px;
+    text-align: center;
+    font-family: 'Ysabeau SC', sans-serif;
+
+}
+
+.services h2 {
+    color: #fff;
+    font-size: 50px;
+    text-align: center;
+    font-family: 'Ysabeau SC', sans-serif;
+}
+
+.aboutme h2 {
+    color: #fff;
+    font-size: 50px;
+    text-align: center;
+    font-family: 'Ysabeau SC', sans-serif;
+}
+
+.contact h2 {
+    color: #fff;
+    font-size: 50px;
+    text-align: center;
+    font-family: 'Ysabeau SC', sans-serif;
+}
+
+col {
+    color: #fff;
+    text-align: center;
+    height: 90vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.left-col {
+    background-color: #293a32;
+}
+
+.right-col {
+    background-color: #293a32;
+}
+
+img {
+    width: 280px;
+    height: 250px;
+    padding: 5px;
+    align-items: center;
+    border-radius: 10%;
+ }
+
+.contact-image {
+    text-align: center;
+     
+
+   
+}
+
+a{
+    color: #ffffff;
+    text-decoration: none;
+}
+
+footer {
+    background-color: #293a32;
+    text-align: center;
+    font-size: 20px;
+    font-family: 'Ysobeau SC', sans-serif;
+    margin: 0;
+}
+
+.social-icon { 
+    height: 50px;
+}
+
+.social-icons-container {
+    text-align: center;
+}
