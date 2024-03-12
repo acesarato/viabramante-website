@@ -8,6 +8,13 @@ body {
     font-family: 'Ysabeau', sans-serif;
  
 }
+
+@media screen and (max-width: 1140px) {
+    .top-container {
+        margin-left: 15px !important;
+        margin-right: 15px !important;
+    }
+}
 .top-container {
     max-width: 1140px;
     margin-left: auto;
