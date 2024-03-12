@@ -6,18 +6,9 @@ body {
     background-color: #293a32;
     margin: 0;
     font-family: 'Ysabeau', sans-serif;
- 
-}
-@media screen and (max-width: 1140px) {
-    h1 {
-        margin-left: 15px !important;
-        margin-right: 15px !important;
-    }
-} 
+ }
+
 h1 {
-    max-width: 1140px;
-    margin-left: auto;
-    margin-right: auto;
     font-family: 'Ysabeau SC', sans-serif;
     font-size: 110px;
     font-weight: lighter;
