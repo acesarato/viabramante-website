@@ -72,11 +72,11 @@ nav {
     font-size:15px;
     color:#293a32;
     margin-left: 0%;
-    padding-left: 0%;
+    padding-left: 0px;
 }
 .navigation li {
     font-family: 'Ysabeau SC', sans-serif;
-    font-size: 10px;
+    font-size: 16px;
     display: inline-block;
     margin:0 15px;
     color: #ffff;
