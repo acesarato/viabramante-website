@@ -160,6 +160,13 @@ col {
 .right-col {
     background-color: #293a32;
 }
+.img-header {
+    width: 200px;
+    height: 200px;
+    padding: 5px;
+    align-items: center;
+}
+
 
 img {
     width: 280px;
