@@ -92,8 +92,8 @@ nav {
 }
 
 .gallery img {
-    width: 230px;
-    height: 230x;
+    width: 400px;
+    height: 350x;
     padding: 10px;
     filter: grayscale(30%);
     transition: 1s;
