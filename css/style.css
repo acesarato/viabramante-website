@@ -93,6 +93,8 @@ nav {
 .image-gif img {
     width: 500px;
     height: 500px;
+    text-align: center;
+    
 }
 .gallery img {
     width: 300px;
