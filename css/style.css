@@ -91,10 +91,12 @@ nav {
     margin: 10px 10px;
 }
 .image-loop img {
+    display: block;
     width: 800px; !important;
     height: 800px; !important;
     justify-content: center;
     align-items: center;
+    text-align: center;
     flex-wrap: wrap;
     
 }
