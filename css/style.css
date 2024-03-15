@@ -90,9 +90,9 @@ nav {
 .gallery {
     margin: 10px 10px;
 }
-.gif-gallery img {
-    width: 400px;
-    height: 350x;
+.image-gif img {
+    width: 500px;
+    height: 500px;
 }
 .gallery img {
     width: 300px;
