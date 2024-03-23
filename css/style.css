@@ -12,10 +12,10 @@ body {
     position: relative;
     width: 1100px;
     display: flex;
-    justify-content: center;
-    align-items: center;
+    justify-content: none;
+    align-items: none;
     flex-wrap: wrap;
-    padding: 30px;
+    padding: 0px;
 }
 h1 {
     font-family: 'Ysabeau SC', sans-serif;
