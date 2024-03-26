@@ -61,6 +61,8 @@ p {
 }
   
 .row {
+    display: flex;
+    flex-direction: row;
     background-color: #293a32;
     text-align: center;
     justify-content: center;
