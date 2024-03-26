@@ -27,12 +27,7 @@ header {
     flex-wrap: wrap;
     padding: 0px;
 }
-.top-container {
-    diplay: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
-}    
+ 
 h1 {
     font-family: 'Ysabeau SC', sans-serif;
     font-size: 90px;
