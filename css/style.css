@@ -155,7 +155,7 @@ nav {
 .gallery {
     margin: 10px 10px;
 }
-.image-loop img {
+.image-loop {
     display: block;
     width: 800px; !important;
     height: 800px; !important;
@@ -164,7 +164,8 @@ nav {
     text-align: center;
     flex-wrap: wrap;
     
-}
+} 
+
 .gallery img {
     width: 300px;
     height: 300x;
