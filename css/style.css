@@ -39,12 +39,8 @@ h1 {
     display: flex;
     flex-wrap: wrap;
     margin-bottom: 0%;
-    background-color: #293a32;
-    position: fixed;
-    z-index: 1;
-    left: 0;
-    right: 0;
 }
+
 h2, h3, h4, h5 {
     font-family: 'Ysabeau SC', sans-serif;
     color: #fff;
