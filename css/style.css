@@ -53,10 +53,10 @@ h2, h3, h4, h5 {
   
   .logos {
     overflow: hidden;
-    padding: 10px 0;
+    padding: 100px 0;
     background: #293a32;
     white-space: nowrap;
-    position: absolute;
+    position: relative;
   }
   
   .logos:before,
