@@ -63,8 +63,8 @@ h2, h3, h4, h5 {
   .logos:after {
     position: absolute;
     top: 0;
-    width: 350px;
-    height: 350px;
+    width:fit-content
+    heighT:fit-content;
     content: "";
     z-index: 2;
   }
