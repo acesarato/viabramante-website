@@ -42,56 +42,6 @@ h2, h3, h4, h5 {
     font-family: 'Ysabeau SC', sans-serif;
     color: #fff;
 }
-@keyframes slide {
-    from {
-      transform: translateX(0);
-    }
-    to {
-      transform: translateX(-100%);
-    }
-  }
-  
-  .logos {
-    overflow: hidden;
-    padding: 100px 0;
-    background: #293a32;
-    white-space: nowrap;
-    position: relative;
-  }
-  
-  .logos:before,
-  .logos:after {
-    position: absolute;
-    top: 0;
-    width:fit-content
-    heighT:fit-content;
-    content: "";
-    z-index: 2;
-  }
-  
-  .logos:before {
-    left: 0;
-    
-  }
-  
-  .logos:after {
-    right: 0;
-   
-  }
-  
-  .logos:hover .logos-slide {
-    animation-play-state: paused;
-  }
-  
-  .logos-slide {
-    display: inline-block;
-    animation: 20s slide infinite linear;
-  }
-  
-  .logos-slide img {
-    height: 200px;
-    margin: 0 40px;
-  }
 
 q {
     display: block;
