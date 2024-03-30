@@ -233,8 +233,8 @@ col {
 }
 
 .pattern-row img{
-    width: 1200px;
-    height: 400px;
+    width: 1200px; !important;
+    height: 400px; !important;
     padding: 0px;
     align-items: center; 
 }
