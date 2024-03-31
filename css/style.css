@@ -9,7 +9,11 @@ html {
     margin: 0;
     padding: 0;
 }
-
+@media (max-width: 600px) { 
+    .facet_sidebar { 
+      display: none; 
+    } 
+  } 
 body {
     background-color: #293a32;
     margin: 0;
