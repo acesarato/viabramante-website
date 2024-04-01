@@ -44,7 +44,17 @@ h1 {
     flex-wrap: wrap;
     margin-bottom: 0%;
 }
+@media (max-width: 640px) {
+    h1 {
+        font-family: 'Ysabeau SC', sans-serif;
+        font-size: 40px;
+        font-weight: lighter;
+        color: #fff;
+        display: flex;
+        flex-wrap: wrap;
+        margin-bottom: 0%;
 
+}
 h2, h3, h4, h5 {
     font-family: 'Ysabeau SC', sans-serif;
     color: #fff;
