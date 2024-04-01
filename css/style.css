@@ -47,10 +47,11 @@ h1 {
 @media (max-width: 375px) {
     h1 {
         font-family: 'Ysabeau SC', sans-serif;
-        font-size: 40px;
+        font-size: 60px;
         font-weight: lighter;
         color: #fff;
-        display: flex;
+        margin-left: 0px;
+        margin-right: 0px;
         flex-wrap: wrap;
         margin-bottom: 0%;
 
