@@ -29,7 +29,10 @@ header {
     flex-wrap: wrap;
     padding: 0px;
 }
- 
+ .container div {
+    padding: 10px;
+    border: 1px white solid;
+ }
 h1 {
     font-family: 'Ysabeau SC', sans-serif;
     font-size: 80px;
