@@ -23,7 +23,7 @@ header {
 .column {
     display: flex;
     flex-wrap: wrap;
-    
+
 }
 .container {
     position: relative;
@@ -113,7 +113,7 @@ nav {
 }
 
 .gallery {
-    margin: 10px 10px;
+    margin: 2px 2px;
 }
 .image-loop {
     display: block;
@@ -130,10 +130,10 @@ nav {
 .gallery img {
     width: 300px;
     height: 300x;
-    padding: 10px;
+    padding: 2px;
     filter: grayscale(30%);
     transition: 1s;
-    border-radius: 10%;
+    border-radius: 1px;
  
 }
 
