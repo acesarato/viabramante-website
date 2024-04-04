@@ -21,6 +21,11 @@ header {
   text-align: center;
 }
 
+@media screen and (max-width: 600px) {
+  header {
+      padding: 10px;
+  }
+}
 .header-image img {
   width: 200px; 
   height: 200px;
