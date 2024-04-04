@@ -43,7 +43,11 @@ h1 {
   flex-wrap: wrap;
   justify-content: center;
 }
-
+@media screen and (max-width: 600px) {
+  h1 {
+    padding: 10px;
+  }
+}
 
 nav {
   background-color: #293a32;
