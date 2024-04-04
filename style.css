@@ -14,13 +14,6 @@ body {
   width: 100vw;
 }
 
-@media (min-width: 350px) {
-  .gallery__item {
-    padding: 1px;
-    padding-top: 0;
-  }
-}
-
 header {
   background-color: #293a32;
   color: #fff;
@@ -46,11 +39,6 @@ h1 {
   justify-content: center;
 }
 
-@media (min-width: 500px) {
-  .section--about {
-    padding: 60px;
-  }
-}
 
 nav {
   background-color: #293a32;
