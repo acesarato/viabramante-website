@@ -29,8 +29,8 @@ header {
 }
 
 .header-image img {
-  width: 200px;
-  height: 200px;
+  width: 300px;
+  height: 300px;
   padding: 1px;
   margin: 0 auto; /* Center the image horizontally */
   display: block; /* Ensure it's a block-level element */
@@ -39,21 +39,21 @@ header {
 
 h1 {
   font-size: 100px;
-  font-weight: lighter;
+  font-weight: bold;
   color: #fff;
   text-align: center; /* Center the text */
 }
 
 @media screen and (max-width: 600px) {
   h1 {
-    font-size: 60px;
+    font-size: 70px;
   }
 }
 
 nav {
   background-color: #293a32;
   font-family: 'Ysabeau SC', sans-serif;
-  font-weight: bold;
+  font-weight: bolder;
   position: fixed;
   z-index: 1;
   left: 0;
@@ -76,10 +76,16 @@ nav {
   text-align: center;
 }
 
-h2,
+h2 {
+  font-size: 60px;
+  font-weight: lighter;
+  color: #fff;
+  text-align: center; /* Center the text */
+}
+
 h3,
 h4 {
-  font-size: 60px;
+  font-size: 50px;
   font-weight: lighter;
   color: #fff;
   text-align: center; /* Center the text */
@@ -89,7 +95,7 @@ h4 {
   h2,
   h3,
   h4 {
-    font-size: 40px; /* Adjust font size for smaller screens */
+    font-size: 30px; /* Adjust font size for smaller screens */
   }
 }
 
