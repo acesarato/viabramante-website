@@ -52,6 +52,7 @@ h1 {
 nav {
   background-color: #293a32;
   font-family: 'Ysabeau SC', sans-serif;
+  font-weight: bold;
   position: fixed;
   z-index: 1;
   left: 0;
