@@ -96,7 +96,9 @@ h4 {
   display: flex;
   flex-wrap: wrap; /* Allow items to wrap to the next line */
   justify-content: center;
-  padding: 30px 0; /* Adjust top and bottom padding */
+  max-width: 1200px; /* Adjust max-width as needed */
+  margin: 0 auto; /* Center the container horizontally */
+  padding: 0 20px; /* Add padding to the sides for better readability */
 }
 
 .column {
