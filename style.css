@@ -124,6 +124,10 @@ p {
     padding: 0 20px; /* Adjust padding for smaller screens */
   }
 }
+a {
+  color: #ffffff; /* Your desired color */
+  text-decoration: none; /* Remove underline */
+}
 
 section {
   padding: 5px;
