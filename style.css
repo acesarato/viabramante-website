@@ -105,7 +105,7 @@ h4 {
   justify-content: center;
   max-width: 1250px; /* Adjust max-width as needed */
   margin: 0 auto; /* Center the container horizontally */
-  padding: 20 20px; /* Add padding to the sides for better readability */
+  padding: 0 20px; /* Add padding to the sides for better readability */
 }
 
 .column {
