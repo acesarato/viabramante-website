@@ -98,7 +98,25 @@ h4 {
     font-size: 30px; /* Adjust font size for smaller screens */
   }
 }
+.flex-container {
+  display: flex;
+  justify-content: space-between; /* Distribute items evenly */
+}
 
+.container {
+  flex: 1; /* Each container takes up equal space */
+  display: flex;
+  flex-wrap: wrap; /* Allow items to wrap within the container */
+}
+
+.image {
+  flex: 0 0 calc(33.33% - 10px); /* Each image takes up 33.33% of the container width with a margin */
+  margin: 5px; /* Adjust margin as needed */
+}
+
+.image img {
+  max-width: 100%; /* Ensure images don't exceed their container's width */
+}
 .container {
   display: flex;
   flex-wrap: wrap; /* Allow items to wrap to the next line */
