@@ -62,6 +62,7 @@ nav {
 }
 
 .navigation {
+  background-color: #293a32;
   text-align: center;
   font-size: 18px;
   color: white;
@@ -73,13 +74,13 @@ nav {
   font-size: 18px;
   display: inline-block;
   margin: 0 10px; /* Adjust the spacing */
-  color: #293a32;
+  color: white;
   text-align: center;
 }
 
 h2 {
   font-size: 60px;
-  font-weight: lighter;
+  font-weight: bold;
   color: #293a32;
   text-align: center; /* Center the text */
 }
@@ -87,7 +88,7 @@ h2 {
 h3,
 h4 {
   font-size: 50px;
-  font-weight: lighter;
+  font-weight: bold;
   color: #293a32;
   text-align: center; /* Center the text */
 }
@@ -144,7 +145,7 @@ h4 {
 p {
   font-size: 20px;
   color: #293a32;
-  font-weight: lighter;
+  font-weight: bold;
   text-align: center;
 }
 
@@ -184,6 +185,7 @@ section {
 
 footer {
   background-color: #293a32;
+  color: white;
   text-align: center;
   font-size: 20px;
   font-family: 'Ysabeau SC', sans-serif;
