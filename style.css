@@ -192,13 +192,7 @@ footer {
   margin: 0;
   padding: 20px 0; /* Add padding to top and bottom */
 }
-.footer-image img {
-  width: 300px;
-  height: 300px;
-  padding: 1px;
-  margin: 0 auto; /* Center the image horizontally */
 
-}
 .social-icon {
   height: 50px;
 }
