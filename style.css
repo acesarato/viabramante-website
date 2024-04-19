@@ -195,8 +195,7 @@ footer {
   height: 300px;
   padding: 1px;
   margin: 0 auto; /* Center the image horizontally */
-  display: block; /* Ensure it's a block-level element */
-  border-radius: 1%;
+
 }
 .social-icon {
   height: 50px;
