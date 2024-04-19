@@ -101,6 +101,7 @@ h4 {
 .flex-container {
   display: flex;
   justify-content: space-between; /* Distribute items evenly */
+  text-align: center;
 }
 
 .container {
