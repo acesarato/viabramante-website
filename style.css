@@ -2,7 +2,7 @@ body {
   font-family: 'Ysabeau SC', sans-serif;
   margin: 0;
   padding: 0;
-  background-color: #293a32;
+  background-color: white;
 }
 
 * {
@@ -40,7 +40,7 @@ header {
 h1 {
   font-size: 100px;
   font-weight: bold;
-  color: #fff;
+  color: #293a32;
   text-align: center; /* Center the text */
 }
 
@@ -79,7 +79,7 @@ nav {
 h2 {
   font-size: 60px;
   font-weight: lighter;
-  color: #fff;
+  color: #293a32;
   text-align: center; /* Center the text */
 }
 
@@ -87,7 +87,7 @@ h3,
 h4 {
   font-size: 50px;
   font-weight: lighter;
-  color: #fff;
+  color: #293a32;
   text-align: center; /* Center the text */
 }
 
@@ -142,7 +142,7 @@ h4 {
 
 p {
   font-size: 20px;
-  color: #ffffff;
+  color: #293a32;
   font-weight: lighter;
   text-align: center;
 }
@@ -153,7 +153,7 @@ p {
   }
 }
 a {
-  color: #ffffff; /* Your desired color */
+  color: #293a32; /* Your desired color */
   text-decoration: none; /* Remove underline */
 }
 
