@@ -51,10 +51,10 @@ h1 {
 }
 
 nav {
-  background-color: #293a32;
+  background-color: white;
   font-family: 'Ysabeau SC', sans-serif;
   font-weight: bolder;
-  color: white;
+  color: #293a32;;
   position: fixed;
   z-index: 1;
   left: 0;
@@ -62,10 +62,10 @@ nav {
 }
 
 .navigation {
-  background-color: #293a32;
+  background-color: white;
   text-align: center;
   font-size: 18px;
-  color: white;
+  color: #293a32;
   margin: 0; /* Remove default margin */
   padding: 0; /* Remove default padding */
 }
@@ -74,7 +74,7 @@ nav {
   font-size: 18px;
   display: inline-block;
   margin: 0 10px; /* Adjust the spacing */
-  color: white;
+  color: #293a32;
   text-align: center;
 }
 
@@ -143,9 +143,9 @@ h4 {
 }
 
 p {
-  font-size: 20px;
+  font-size: 22px;
   color: #293a32;
-  font-weight: bold;
+  font-weight: bolder;
   text-align: center;
 }
 
