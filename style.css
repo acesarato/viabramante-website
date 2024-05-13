@@ -113,6 +113,26 @@ h4 {
   display: flex;
   flex-wrap: wrap; /* Allow items to wrap within the container */
 }
+.gallery {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.gallery-item {
+    width: 25%; /* Adjust as needed for the number of columns */
+    padding: 5px;
+    box-sizing: border-box;
+}
+
+.gallery-item img {
+    width: 100%;
+    height: auto;
+}
+@media (max-width: 768px) {
+    .gallery-item {
+        width: 50%; /* Adjust for two columns on smaller screens */
+    }
+}
 
 .image {
   flex: 0 0 calc(33.33% - 10px); /* Each image takes up 33.33% of the container width with a margin */
