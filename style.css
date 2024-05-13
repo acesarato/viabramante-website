@@ -115,7 +115,19 @@ h4 {
 }
 .gallery {
     display: flex;
-    flex-wrap: wrap;
+    overflow-x: auto;
+    scroll-snap-type: x mandatory;
+}
+
+img {
+    scroll-snap-align: start;
+    max-width: 100%;
+    height: auto;
+    margin-right: 10px;
+}
+
+button {
+    margin-top: 10px;
 }
 
 .gallery-item {
