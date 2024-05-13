@@ -3,3 +3,6 @@ require(['./lightgallery.js'], function() {
         lightGallery(document.getElementById('lightgallery'));
     });
 });
+<script>
+    lightGallery(document.getElementById('lightgallery'));
+</script>
