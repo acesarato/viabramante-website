@@ -7,7 +7,8 @@
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="css/lightgallery.css">
     <script type='text/javascript' src='http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js'></script>
-
+ <!-- Bootstrap CSS -->
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
     <link href="css/lightgallery.min.css" rel="stylesheet">
     <title>ViaBramante</title>
     <link rel="icon" href="images/logoverde.png">
@@ -39,33 +40,73 @@
     <p>A mix of understated, quirky, and timeless subjects inspired by the natural world and ordinary aspects of life.</p>
 
 
-  <script src="js/lightgallery.min.js"></script>
+ <!-- Your Lightgallery content -->
+    <div id="lightgallery" class="container">
+        <div class="row">
+            <div class="col-md-4 col-sm-6 mb-4">
+                <a href="images/oriental square.jpg">
+                    <img src="images/oriental square.jpg" class="img-fluid">
+                </a>
+            </div>
+            <div class="col-md-4 col-sm-6 mb-4">
+                <a href="images/CACHI_PATTERN_RANDOM.jpg">
+                    <img src="images/CACHI_PATTERN_RANDOM.jpg" class="img-fluid">
+                </a>
+            </div>
+            <div class="col-md-4 col-sm-6 mb-4">
+                <a href="images/round leaf pattern random.jpg">
+                    <img src="images/round leaf pattern random.jpg" class="img-fluid">
+                </a>
+            </div>
+            <div class="col-md-4 col-sm-6 mb-4">
+                <a href="images/dresses.jpg">
+                    <img src="images/dresses.jpg" class="img-fluid">
+                </a>
+            </div>
+            <div class="col-md-4 col-sm-6 mb-4">
+                <a href="images/oval leavesblue 1000.jpg">
+                    <img src="images/oval leavesblue 1000.jpg" class="img-fluid">
+                </a>
+            </div>
+            <div class="col-md-4 col-sm-6 mb-4">
+                <a href="images/FAINT FLOWERS2.jpg">
+                    <img src="images/FAINT FLOWERS2.jpg" class="img-fluid">
+                </a>
+            </div>
+            <div class="col-md-4 col-sm-6 mb-4">
+                <a href="images/hummingbird green1000.jpg">
+                    <img src="images/hummingbird green1000.jpg" class="img-fluid">
+                </a>
+            </div>
+        </div>
+    </div>
 
-    <!-- lightgallery plugins -->
+    <!-- Bootstrap and dependencies JavaScript -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+    <!-- Lightgallery scripts -->
+    <script src="js/lightgallery.min.js"></script>
     <script src="js/lg-thumbnail.min.js"></script>
     <script src="js/lg-fullscreen.min.js"></script>
-        <div id="lightgallery">
-        <a href="images/oriental square.jpg">
-        <img src="images/oriental square.jpg">
-        </a>
-    	<a href="images/CACHI_PATTERN_RANDOM.jpg">
-        <img src="images/CACHI_PATTERN_RANDOM.jpg">
-    	</a>
-	<a href="images/round leaf pattern random.jpg">
-        <img src="images/round leaf pattern random.jpg">
-    	</a>
-        <a href="images/dresses.jpg">
-        <img src="images/dresses.jpg">
-        </a>
-    	<a href="images/oval leavesblue 1000.jpg">
-        <img src="images/oval leavesblue 1000.jpg">
-    	</a>
-	<a href="images/FAINT FLOWERS2.jpg">
-        <img src="images/FAINT FLOWERS2.jpg">
-        </a>
-    	<a href="images/hummingbird green1000.jpg">
-        <img src="images/hummingbird green1000.jpg">
-    	</a>
+
+    <!-- Initialize lightGallery -->
+    <script>
+        document.addEventListener('DOMContentLoaded', function() {
+            lightGallery(document.getElementById('lightgallery'), {
+                thumbnail: true,
+                mode: 'lg-slide',  // Ensures that the slide effect is used
+                addClass: 'fixed-size',
+                counter: false,
+                download: false,
+                enableDrag: false,
+                speed: 500,
+                selector: 'a'
+            });
+        });
+    </script>
+
             
   <div class="flex-container">
     <div class="container">
