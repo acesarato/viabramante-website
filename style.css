@@ -20,8 +20,8 @@ body {
 }
 
 header {
-  background-color: #293a32;
-  color: #fff;
+  background-color: #fff;
+  color: #293a32;
   padding: 1px;
   text-align: center;
 }
@@ -42,7 +42,7 @@ header {
 }
 
 h1 {
-  fontfont-family: 'Ysabeau SC', sans-serif;
+  font-family: 'Ysabeau SC', sans-serif;
   font-size: 100px;
   font-weight: bold;
   color: white;
