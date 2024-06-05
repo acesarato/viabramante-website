@@ -242,6 +242,7 @@ footer {
 }
 
 .social-icons-container {
-  background-color: #293a32;
+  color: #293a32;
+  background-color: #fff;
   text-align: center;
 }
