@@ -50,15 +50,17 @@ header {
 
 h1 {
   font-family: 'Ysabeau SC', sans-serif;
-  font-size: 200px;
+  font-size: 400px;
   font-weight: bold;
   color: #293a32;
   text-align: center; /* Center the text */
+  padding: 20px;
 }
 
 @media screen and (max-width: 350px) {
   h1 {
-    font-size: 200px;
+    font-size: 400px;
+    padding: 10px;
   }
 }
 
@@ -96,7 +98,7 @@ nav {
 }
 
 h2 {
-  font-size: 60px;
+  font-size: 100px;
   font-weight: bold;
   color: #293a32;
   text-align: center; /* Center the text */
