@@ -3,6 +3,15 @@ body {
   margin: 0;
   padding: 0;
   background-color: white;
+  display: flex;
+  justify-content: center; /* horizontal centering */
+  align-items: center; /* vertical centering */
+  height: 100vh; /* full height of the viewport */
+  }
+
+.centered {
+  width: 50%; /* or any desired width */
+  border: 1px solid #000; /* for visibility */
 }
 
 * {
