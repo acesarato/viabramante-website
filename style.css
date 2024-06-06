@@ -12,12 +12,14 @@ body {
   margin: 0;
   padding: 0;
   background-color: white;
+  text-align: center;
 }
   
 .section {
   position: relative;
   width: 100vw;
   height: 100vh;
+  text-align: center;
 }
 img, iframe, object, embed {
   max-width: 100%;
