@@ -4,9 +4,17 @@
     <style>
       .cls-1 {
         fill: #293a32;
+      }
+
+      .cls-1, .cls-2 {
         stroke-width: 0px;
+      }
+
+      .cls-2 {
+        fill: #fff;
       }
     </style>
   </defs>
-  <path class="cls-1" d="M22.5,8.2H1.5v-2.8h21.1v2.8h0ZM1.5,10.8v13.2l10.5-5.9,10.5,5.9v-13.2H1.5ZM22.5,0H1.5v2.8h21.1V0Z"/>
+  <ellipse class="cls-1" cx="12" cy="12" rx="12" ry="11.9"/>
+  <path class="cls-2" d="M18.9,10H4.7v-1.9h14.3v1.9h0ZM4.7,11.7v8.9l7.1-4,7.1,4v-8.9H4.7ZM18.9,4.4H4.7v1.9h14.3v-1.9Z"/>
 </svg>
