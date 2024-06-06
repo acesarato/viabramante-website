@@ -193,6 +193,7 @@ p {
   color: #293a32;
   font-weight: bolder;
   text-align: center;
+  justify-content: center;
 }
 
 .contact_text p{
