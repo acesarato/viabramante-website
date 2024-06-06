@@ -69,7 +69,7 @@ nav {
   font-family: 'Ysabeau SC', sans-serif;
   font-weight: bold;
   color: #293a32;
-  text-decoration: none;
+  text-decoration: none !important;
   position: fixed;
   z-index: 1;
   left: 0;
