@@ -26,7 +26,7 @@ header {
   text-align: center;
 }
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 350px) {
   header {
     padding: 20px;
   }
@@ -49,9 +49,9 @@ h1 {
   text-align: center; /* Center the text */
 }
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 350px) {
   h1 {
-    font-size: 70px;
+    font-size: 100px;
   }
 }
 
@@ -108,7 +108,7 @@ h4 {
   text-align: center;
 }
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 350px) {
   h2,
   h3,
   h4 {
@@ -153,7 +153,7 @@ button {
     width: 100%;
     height: auto;
 }
-@media (max-width: 768px) {
+@media (max-width: 350px) {
     .gallery-item {
         width: 50%; /* Adjust for two columns on smaller screens */
     }
@@ -201,7 +201,7 @@ p {
   justify-content: center;
 }
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 350px) {
   p {
     padding: 0 20px; /* Adjust padding for smaller screens */
   }
@@ -229,7 +229,7 @@ section {
   border-radius: 1%;
 }
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 350px) {
   .portfolio img {
     max-width: 250px;
   }
