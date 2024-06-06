@@ -193,6 +193,10 @@ p {
   text-align: center;
 }
 
+.contact_text p{
+  justify-content: center;
+}
+
 @media screen and (max-width: 600px) {
   p {
     padding: 0 20px; /* Adjust padding for smaller screens */
