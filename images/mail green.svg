@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Capa_1" data-name="Capa 1" xmlns="http://www.w3.org/2000/svg" version="1.1" viewBox="0 0 800 800">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #293a32;
+        stroke-width: 0px;
+      }
+    </style>
+  </defs>
+  <g id="SVGRepo_iconCarrier" data-name="SVGRepo iconCarrier">
+    <path class="cls-1" d="M400,0C179.1,0,0,179.1,0,400s179.1,400,400,400,400-179.1,400-400S620.9,0,400,0ZM580.2,222.2l-180.4,142.6-186.2-142.6h366.6ZM598.8,577.8H195.1v-295.3l186.1,141.1c5,3.8,12.4,5.7,18.3,5.7s11.4-2,16.4-6l182.9-145.5v299.9Z"/>
+  </g>
+</svg>
