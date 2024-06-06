@@ -229,14 +229,14 @@ section {
 
 .portfolio img {
   margin: 2px;
-  max-width: 250px;
+  max-width: 400px;
   height: auto;
   border-radius: 1%;
 }
 
 @media screen and (max-width: 350px) {
   .portfolio img {
-    max-width: 250px;
+    max-width: 400px;
   }
 }
 
