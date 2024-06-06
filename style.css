@@ -3,10 +3,6 @@ body {
   margin: 0;
   padding: 0;
   background-color: white;
-  display: flex;
-  justify-content: center; /* horizontal centering */
-  align-items: center; /* vertical centering */
-  height: 100vh; /* full height of the viewport */
   }
 
 * {
