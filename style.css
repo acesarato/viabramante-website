@@ -91,6 +91,7 @@ nav {
 
 .navigation li {
   display: inline-block;
+  text-decoration: none;
   margin: 0 10px; /* Adjust the spacing */
 }
 
