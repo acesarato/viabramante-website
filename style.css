@@ -72,7 +72,6 @@ nav {
   font-family: 'Ysabeau SC', sans-serif;
   font-weight: bold;
   color: #293a32;
-  text-decoration: none !important;
   position: fixed;
   z-index: 1;
   left: 0;
@@ -85,20 +84,22 @@ nav {
   font-size: 20px;
   font-weight: bold;
   color: #293a32;
-  text-decoration: none !important;
   margin: 0; /* Remove default margin */
   padding: 0; /* Remove default padding */
+  list-style: none; /* Remove bullets from list */
 }
 
 .navigation li {
-  font-size: 20px;
-  text-decoration: none;
   display: inline-block;
   margin: 0 10px; /* Adjust the spacing */
-  color: #293a32;
-  font-weight: bold;
-  text-align: center;
 }
+
+.navigation a {
+  color: #293a32;
+  text-decoration: none; /* Remove text decoration */
+  font-weight: bold;
+}
+
 .fancybox-container {
   margin: 0;
   padding: 0;
