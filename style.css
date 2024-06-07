@@ -57,7 +57,7 @@ h1 {
   font-weight: bold;
   color: #293a32;
   text-align: center; /* Center the text */
-  padding: 20px;
+  padding: 30px;
 }
 
 @media screen and (max-width: 350px) {
@@ -204,7 +204,7 @@ button {
 }
 
 .image {
-  flex: 0 0 calc(33.33% - 10px); /* Each image takes up 33.33% of the container width with a margin */
+  flex: 0 0 calc(25% - 10px); /* Each image takes up 33.33% of the container width with a margin */
   margin: 5px; /* Adjust margin as needed */
 }
 
