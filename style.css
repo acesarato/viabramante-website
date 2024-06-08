@@ -52,8 +52,7 @@ header {
 
 h1 {
   font-family: 'Ysabeau SC', sans-serif;
-  font-size: 100px;
-  font-weight: bold;
+  font-weight: bolder;
   color: #293a32;
   text-align: center; /* Center the text */
   padding: 100px;
@@ -149,7 +148,7 @@ hr {
 }
 
 h2 {
-  font-size: 200px;
+  font-size: 250px;
   font-weight: bold;
   color: #293a32;
   text-align: center; /* Center the text */
