@@ -255,7 +255,9 @@ p {
   text-align: center;
   justify-content: center;
 }
-
+.spaced-paragraph {
+    margin-top: 20px; /* Adjust the value as needed */
+}
 .contact_text {
   justify-content: center;
 }
