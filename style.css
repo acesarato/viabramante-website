@@ -251,9 +251,9 @@ button {
 }
 
 p {
-  font-size: 25px;
+  font-size: 20px;
   color: #293a32;
-  font-weight: bolder;
+  font-weight: bold;
   text-align: center;
   justify-content: center;
 }
