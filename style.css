@@ -76,6 +76,7 @@ nav {
   z-index: 1;
   left: 0;
   right: 0;
+  padding: 10px 0;
 }
 
 .navigation {
@@ -103,6 +104,14 @@ nav {
 .navigation a:hover {
   color: #293a32; /* Keep the color the same on hover */
   text-decoration: none; /* Ensure no text decoration on hover */
+}
+
+section {
+  padding: 100px 20px; /* Add padding to avoid overlap by fixed nav */
+}
+
+hr {
+  margin-top: 100px; /* Adjust margin to avoid overlap by fixed nav */
 }
 
 .fancybox-container {
