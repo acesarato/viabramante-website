@@ -100,6 +100,10 @@ nav {
   text-decoration: none; /* Remove text decoration */
   font-weight: bold;
 }
+.navigation a:hover {
+  color: #293a32; /* Keep the color the same on hover */
+  text-decoration: none; /* Ensure no text decoration on hover */
+}
 
 .fancybox-container {
   margin: 0;
