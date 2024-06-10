@@ -153,6 +153,7 @@ h2 {
   color: #293a32;
   text-align: center; /* Center the text */
   padding: 70px;
+  justify-content: center;
 }
 
 h3 {
