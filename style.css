@@ -207,11 +207,11 @@ button {
 }
 
 .gallery-item {
-    width: 25%; /* Adjust as needed for the number of columns */
-    padding: 5px;
-    box-sizing: border-box;
+  width: calc(25% - 10px); /* Adjust as needed for the number of columns */
+  margin: 5px; /* Adjust margin to ensure proper spacing */
+  box-sizing: border-box;
+  
 }
-
 .gallery-item img {
     width: 100%;
     height: auto;
