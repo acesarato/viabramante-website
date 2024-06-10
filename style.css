@@ -186,10 +186,13 @@ h4 {
   display: flex;
   flex-wrap: wrap; /* Allow items to wrap within the container */
 }
+
 .gallery {
     display: flex;
     overflow-x: auto;
     scroll-snap-type: x mandatory;
+    flex-wrap: wrap; /* Ensure the gallery wraps correctly */
+    justify-content: center; /* Center the gallery items */
 }
 
 img {
