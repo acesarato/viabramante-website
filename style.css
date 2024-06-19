@@ -209,7 +209,7 @@ button {
 
 .gallery-item {
   width: calc(25% - 10px); /* Adjust as needed for the number of columns */
-  margin: 5px; /* Adjust margin to ensure proper spacing */
+  margin: 0; /* Adjust margin to ensure proper spacing */
   box-sizing: border-box;
   
 }
@@ -225,7 +225,7 @@ button {
 
 .image {
   flex: 0 0 calc(25% - 10px); /* Each image takes up 33.33% of the container width with a margin */
-  margin: 5px; /* Adjust margin as needed */
+  margin: 0; /* Adjust margin as needed */
 }
 
 .image img {
