@@ -190,22 +190,22 @@ h4 {
 }
 
 .gallery {
-    display: flex;
-    overflow-x: auto;
-    scroll-snap-type: x mandatory;
-    flex-wrap: wrap; /* Ensure the gallery wraps correctly */
-    justify-content: center; /* Center the gallery items */
+  display: flex;
+  overflow-x: auto;
+  scroll-snap-type: x mandatory;
+  flex-wrap: wrap; /* Ensure the gallery wraps correctly */
+  justify-content: center; /* Center the gallery items */
 }
 
 img {
-    scroll-snap-align: start;
-    max-width: 100%;
-    height: auto;
-    margin-right: 0;
+  scroll-snap-align: start;
+  max-width: 100%;
+  height: auto;
+  margin-right: 0;
 }
 
 button {
-    margin-top: 10px;
+  margin-top: 10px;
 }
 
 .gallery-item {
@@ -215,8 +215,8 @@ button {
   
 }
 .gallery-item img {
-    width: 100%;
-    height: auto;
+  width: 100%;
+  height: auto;
 }
 @media (max-width: 350px) {
     .gallery-item {
@@ -262,7 +262,7 @@ p {
   justify-content: center;
 }
 .spaced-paragraph {
-    margin-top: 20px; /* Adjust the value as needed */
+  margin-top: 20px; /* Adjust the value as needed */
 }
 .contact_text {
   justify-content: center;
