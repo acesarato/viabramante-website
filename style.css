@@ -223,6 +223,13 @@ button {
   box-sizing: border-box;
   
 }
+
+.image, .gallery-item {
+  flex: 0 0 calc(25% - 10px); /* Adjust for columns */
+  margin: 0; /* Ensure no margin */
+  padding: 0; /* Ensure no padding */
+}
+
 .gallery-item img {
   width: 100%;
   height: auto;
