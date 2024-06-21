@@ -23,11 +23,13 @@ body {
   height: 100vh;
   text-align: center;
 }
+
 img, iframe, object, embed {
   max-width: 100%;
   height: auto;
+  margin: 0; /* Ensure no margin */
+  padding: 0; /* Ensure no padding */
 }
-
 header {
   background-color: #fff;
   color: #293a32;
