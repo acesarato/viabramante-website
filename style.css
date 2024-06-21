@@ -162,6 +162,7 @@ h3 {
   color: #293a32;
   text-align: center; /* Center the text */
 }
+
 h4 {
   font-size: 15px;
   font-weight: normal;
@@ -200,7 +201,7 @@ img {
     scroll-snap-align: start;
     max-width: 100%;
     height: auto;
-    margin-right: 5px;
+    margin-right: 0;
 }
 
 button {
@@ -289,7 +290,7 @@ section {
 }
 
 .portfolio img {
-  margin: 5px;
+  margin: 0;
   max-width: 300px;
   height: auto;
   border-radius: 1%;
