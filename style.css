@@ -179,16 +179,23 @@ h4 {
     font-size: 15px; /* Adjust font size for smaller screens */
   }
 }
+
 .flex-container {
   display: flex;
-  justify-content: space-between; /* Distribute items evenly */
+  justify-content: space-between; /* Adjust if needed */
   text-align: center;
+  margin: 0; /* Ensure no margin */
+  padding: 0; /* Ensure no padding */
 }
 
 .container {
   flex: 1; /* Each container takes up equal space */
   display: flex;
   flex-wrap: wrap; /* Allow items to wrap within the container */
+  justify-content: center; /* Center items */
+  margin: 0 auto; /* Center container */
+  padding: 0; /* Ensure no padding */
+  max-width: 100%; /* Ensure container does not exceed 100% */
 }
 
 .gallery {
