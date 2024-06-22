@@ -321,6 +321,14 @@ footer {
   padding: 20px 0; /* Add padding to top and bottom */
 }
 
+footer a {
+  color: #293a32;
+  text-decoration: none;
+}
+
+footer a:hover {
+  text-decoration: none;
+}
 .social-icon {
   height: 25px;
 }
