@@ -327,6 +327,7 @@ footer a {
 }
 
 footer a:hover {
+  color: #293a32;
   text-decoration: none;
 }
 .social-icon {
