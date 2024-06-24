@@ -269,6 +269,14 @@ p {
   text-align: center;
   justify-content: center;
 }
+.about p {
+  font-size: 20px;
+  color: #293a32;
+  font-weight: bold;
+  text-align: center;
+  justify-content: center;
+  margin: 10px 0; /* Default margin */
+}
 .spaced-paragraph {
   margin-top: 20px; /* Adjust the value as needed */
 }
@@ -279,6 +287,18 @@ p {
 @media screen and (max-width: 350px) {
   p {
     padding: 0 20px; /* Adjust padding for smaller screens */
+  }
+}
+/* Add more margin for mobile devices */
+@media screen and (max-width: 768px) { /* Target devices with a width of 768px or less */
+  .about p {
+    margin: 20px 10px; /* Increase margin for smaller screens */
+  }
+}
+
+@media screen and (max-width: 350px) { /* Target devices with a width of 350px or less */
+  .about p {
+    margin: 30px 20px; /* Further increase margin for very small screens */
   }
 }
 a {
