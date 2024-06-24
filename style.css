@@ -117,10 +117,10 @@ hr {
 }
 
 .fancybox-container {
-  margin-left: 25px;
+  margin-left: 27px;
   padding: 0;
-  width: calc(100vw - 25px);
-  max-width: calc(100vw - 25px);
+  width: calc(100vw - 27px);
+  max-width: calc(100vw - 27px);
 }
 
 .container-fluid {
@@ -128,15 +128,15 @@ hr {
 }
 
 .fancybox-container, .fancybox-content, .fancybox-image {
-  margin-left: 25px;
+  margin-left: 27px;
   padding: 0;
-  width: calc(100vw - 25px);
-  max-width: calc(100vw - 25px);
+  width: calc(100vw - 27px);
+  max-width: calc(100vw - 27px);
 }
 
 .row.no-gutters {
   margin-right: 0;
-  margin-left: 25px;
+  margin-left: 27px;
 }
         
 .item {
@@ -292,13 +292,13 @@ p {
 /* Add more margin for mobile devices */
 @media screen and (max-width: 768px) { /* Target devices with a width of 768px or less */
   .about p {
-    margin: 20px 10px; /* Increase margin for smaller screens */
+    margin: 10px 10px; /* Increase margin for smaller screens */
   }
 }
 
 @media screen and (max-width: 350px) { /* Target devices with a width of 350px or less */
   .about p {
-    margin: 30px 20px; /* Further increase margin for very small screens */
+    margin: 20px 20px; /* Further increase margin for very small screens */
   }
 }
 a {
