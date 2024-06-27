@@ -70,5 +70,46 @@
             </div>
         </div>
     </section>
+
+	<style>
+	.column-container {
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
+        }
+
+        .column {
+            flex: 0 0 calc(33.33% - 20px);
+            max-width: calc(33.33% - 20px);
+            margin: 10px;
+            text-align: center;
+        }
+
+        .column img {
+            max-width: 100%;
+            height: auto;
+            border-radius: 1%;
+        }
+
+        .column p {
+            margin-top: 10px;
+            font-size: 18px;
+            color: #293a32;
+            font-weight: bold;
+        }
+
+        @media screen and (max-width: 768px) {
+            .column {
+                flex: 0 0 calc(50% - 20px);
+                max-width: calc(50% - 20px);
+            }
+        }
+
+        @media screen and (max-width: 480px) {
+            .column {
+                flex: 0 0 100%;
+                max-width: 100%;
+            }
+        }
+	</style>
 </body>
-	
