@@ -54,19 +54,28 @@
  </section>
 <hr>
     <section class="section">
-        <h2>inspiration and reflection</h2>
+        <h2>Inspiration and Reflection</h2>
         <div class="column-container">
             <div class="column">
                 <img src="images/the small white butterfly 1000.jpg" alt="Feature 1">
-                <p>An artist's date @ Porta Portese, Rome.</p>
+                <div class="blog-excerpt">
+                    <p>An artist's date @ Porta Portese, Rome. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque imperdiet...</p>
+                </div>
+                <span class="read-more" onclick="toggleReadMore(this)">Read more...</span>
             </div>
             <div class="column">
                 <img src="images/the small white butterfly 1000.jpg" alt="Feature 2">
-                <p>An artist's date @ Tate Gallery, London</p>
+                <div class="blog-excerpt">
+                    <p>An artist's date @ Tate Gallery, London. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque imperdiet...</p>
+                </div>
+                <span class="read-more" onclick="toggleReadMore(this)">Read more...</span>
             </div>
             <div class="column">
                 <img src="images/the small white butterfly 1000.jpg" alt="Feature 3">
-                <p>An artist's date @ La Biennale, Venice</p>
+                <div class="blog-excerpt">
+                    <p>An artist's date @ La Biennale, Venice. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque imperdiet...</p>
+                </div>
+                <span class="read-more" onclick="toggleReadMore(this)">Read more...</span>
             </div>
         </div>
     </section>
@@ -113,7 +122,23 @@
             color: #293a32;
             font-weight: bold;
         }
+ 	.blog-excerpt {
+            max-height: 100px; /* Adjust this value as needed */
+            overflow: hidden;
+            position: relative;
+        }
 
+        .read-more {
+            display: block;
+            margin-top: 10px;
+            color: #007bff;
+            cursor: pointer;
+        }
+
+        .read-more:hover {
+            text-decoration: underline;
+        }
+		
         @media screen and (max-width: 768px) {
             .column {
                 flex: 0 0 calc(50% - 20px);
@@ -128,4 +153,16 @@
             }
         }
 	</style>
+	<script>
+        function toggleReadMore(element) {
+            const blogExcerpt = element.previousElementSibling;
+            if (blogExcerpt.style.maxHeight) {
+                blogExcerpt.style.maxHeight = null;
+                element.innerText = "Read more...";
+            } else {
+                blogExcerpt.style.maxHeight = blogExcerpt.scrollHeight + "px";
+                element.innerText = "Read less...";
+            }
+        }
+    </script>
 </body>
